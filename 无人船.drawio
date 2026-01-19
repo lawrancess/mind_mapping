@@ -1,0 +1,164 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.10">
+  <diagram name="第 1 页" id="sVSFbgsFLBxCpMFJGgu6">
+    <mxGraphModel dx="2032" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4YfgQlZY2nssHUyFOkCY-4" edge="1" parent="1" source="4YfgQlZY2nssHUyFOkCY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4YfgQlZY2nssHUyFOkCY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4YfgQlZY2nssHUyFOkCY-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="初始化设备&lt;div&gt;PWM,三个串口,一个IIC&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;，两个GPIO&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4YfgQlZY2nssHUyFOkCY-6" edge="1" parent="1" source="4YfgQlZY2nssHUyFOkCY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4YfgQlZY2nssHUyFOkCY-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4YfgQlZY2nssHUyFOkCY-2" parent="1" style="whiteSpace=wrap;html=1;" value="卫星通信&lt;div&gt;获取基础位置&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4YfgQlZY2nssHUyFOkCY-8" edge="1" parent="1" source="4YfgQlZY2nssHUyFOkCY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4YfgQlZY2nssHUyFOkCY-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4YfgQlZY2nssHUyFOkCY-5" parent="1" style="whiteSpace=wrap;html=1;" value="雷达检测&lt;div&gt;观察附近地形&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4YfgQlZY2nssHUyFOkCY-10" edge="1" parent="1" source="4YfgQlZY2nssHUyFOkCY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4YfgQlZY2nssHUyFOkCY-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4YfgQlZY2nssHUyFOkCY-7" parent="1" style="whiteSpace=wrap;html=1;" value="电子罗盘记录正方向" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="4YfgQlZY2nssHUyFOkCY-12" edge="1" parent="1" source="4YfgQlZY2nssHUyFOkCY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4YfgQlZY2nssHUyFOkCY-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4YfgQlZY2nssHUyFOkCY-14" edge="1" parent="1" source="4YfgQlZY2nssHUyFOkCY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4YfgQlZY2nssHUyFOkCY-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4YfgQlZY2nssHUyFOkCY-9" parent="1" style="whiteSpace=wrap;html=1;" value="4G通信&lt;div&gt;建立联系&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="4YfgQlZY2nssHUyFOkCY-17" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139" y="300" as="sourcePoint" />
+            <mxPoint x="139" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YfgQlZY2nssHUyFOkCY-18" connectable="0" parent="4YfgQlZY2nssHUyFOkCY-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="收到运动指令" vertex="1">
+          <mxGeometry relative="1" x="-0.1083" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-4" edge="1" parent="1" source="4YfgQlZY2nssHUyFOkCY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nQwU3sJ-sv1ICLI6VZYT-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-5" connectable="0" parent="nQwU3sJ-sv1ICLI6VZYT-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="收到坐标导航指令" vertex="1">
+          <mxGeometry relative="1" x="0.0667" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YfgQlZY2nssHUyFOkCY-11" parent="1" style="whiteSpace=wrap;html=1;" value="进入接收指令任务" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="4YfgQlZY2nssHUyFOkCY-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="每隔一段时间&lt;div&gt;发送心跳包保证联系&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="300" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="4YfgQlZY2nssHUyFOkCY-16" parent="1" style="whiteSpace=wrap;html=1;" value="完成前进，后退，左转右转" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-8" edge="1" parent="1" source="nQwU3sJ-sv1ICLI6VZYT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nQwU3sJ-sv1ICLI6VZYT-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-3" parent="1" style="whiteSpace=wrap;html=1;" value="计算角度，参考电子罗盘转向" vertex="1">
+          <mxGeometry height="60" width="120" x="-200" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="每过一段时间获取当前经纬度坐标" vertex="1">
+          <mxGeometry height="80" width="80" x="-180" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-10" edge="1" parent="1" source="nQwU3sJ-sv1ICLI6VZYT-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nQwU3sJ-sv1ICLI6VZYT-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-11" connectable="0" parent="nQwU3sJ-sv1ICLI6VZYT-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="获取经纬度坐标" vertex="1">
+          <mxGeometry relative="1" x="-0.0333" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-7" parent="1" style="whiteSpace=wrap;html=1;" value="驱动前进，通过计算距离与出发时间逐步增加速度" vertex="1">
+          <mxGeometry height="60" width="120" x="-200" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-13" edge="1" parent="1" source="nQwU3sJ-sv1ICLI6VZYT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nQwU3sJ-sv1ICLI6VZYT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-14" connectable="0" parent="nQwU3sJ-sv1ICLI6VZYT-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="没有到达&lt;br&gt;目标位置" vertex="1">
+          <mxGeometry relative="1" x="-0.0741" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-16" edge="1" parent="1" source="nQwU3sJ-sv1ICLI6VZYT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nQwU3sJ-sv1ICLI6VZYT-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-17" connectable="0" parent="nQwU3sJ-sv1ICLI6VZYT-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="到达目标位置&lt;br&gt;或临近目标位置" vertex="1">
+          <mxGeometry relative="1" x="-0.1333" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-9" parent="1" style="whiteSpace=wrap;html=1;" value="校对坐标，核对方向" vertex="1">
+          <mxGeometry height="60" width="120" x="-200" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-28" edge="1" parent="1" source="nQwU3sJ-sv1ICLI6VZYT-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nQwU3sJ-sv1ICLI6VZYT-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-15" parent="1" style="whiteSpace=wrap;html=1;" value="根据距离开始减速&lt;br&gt;增加获取坐标间隔" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-26" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nQwU3sJ-sv1ICLI6VZYT-25" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="545" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-29" connectable="0" parent="nQwU3sJ-sv1ICLI6VZYT-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="0.1179" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-25" parent="1" style="whiteSpace=wrap;html=1;" value="到达目标位置" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-33" edge="1" parent="1" source="nQwU3sJ-sv1ICLI6VZYT-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nQwU3sJ-sv1ICLI6VZYT-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-34" connectable="0" parent="nQwU3sJ-sv1ICLI6VZYT-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="0.0167" y="9" as="geometry">
+            <mxPoint x="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-27" parent="1" style="whiteSpace=wrap;html=1;" value="当前坐标和目标坐标相差数据是否在可接受范围内？" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-35" edge="1" parent="1" source="nQwU3sJ-sv1ICLI6VZYT-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nQwU3sJ-sv1ICLI6VZYT-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-32" parent="1" style="whiteSpace=wrap;html=1;" value="微调位置" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;4G通讯&lt;/div&gt;USART2_TX:PA2&lt;div&gt;USART2_RX:PA3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-490" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;测试串口&lt;/div&gt;USART1_TX:PC4&lt;div&gt;USART1_RX:PC5&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-490" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-39" parent="1" style="whiteSpace=wrap;html=1;" value="PWM输出（TIM1）&lt;div&gt;PA8和PA9二选一&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-490" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;卫星通讯&lt;/div&gt;USART3_TX:PB10&lt;div&gt;USART3_RX:PE15&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-640" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;雷达串口&lt;/div&gt;USART？_TX:P&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;USART？_RX:P&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-640" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nQwU3sJ-sv1ICLI6VZYT-43" parent="1" style="whiteSpace=wrap;html=1;" value="电子罗盘&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;串口&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-640" y="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
