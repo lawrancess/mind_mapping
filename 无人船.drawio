@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.6">
   <diagram name="第 1 页" id="sVSFbgsFLBxCpMFJGgu6">
-    <mxGraphModel dx="3099" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3926" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -159,7 +159,37 @@
           <mxGeometry height="60" width="120" x="-640" y="260" as="geometry" />
         </mxCell>
         <mxCell id="9hKEWkT9zUHgPEigVAYT-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="电子罗盘数据流" vertex="1">
-          <mxGeometry height="470" width="590" x="-910" y="330" as="geometry" />
+          <mxGeometry height="470" width="1910" x="-1790" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKEWkT9zUHgPEigVAYT-5" edge="1" parent="9hKEWkT9zUHgPEigVAYT-1" source="9hKEWkT9zUHgPEigVAYT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9hKEWkT9zUHgPEigVAYT-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKEWkT9zUHgPEigVAYT-3" parent="9hKEWkT9zUHgPEigVAYT-1" style="rounded=1;whiteSpace=wrap;html=1;" value="获得要读取欧拉角的命令" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKEWkT9zUHgPEigVAYT-7" edge="1" parent="9hKEWkT9zUHgPEigVAYT-1" source="9hKEWkT9zUHgPEigVAYT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9hKEWkT9zUHgPEigVAYT-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKEWkT9zUHgPEigVAYT-4" parent="9hKEWkT9zUHgPEigVAYT-1" style="whiteSpace=wrap;html=1;rounded=1;" value="发送获取指令" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKEWkT9zUHgPEigVAYT-9" edge="1" parent="9hKEWkT9zUHgPEigVAYT-1" source="9hKEWkT9zUHgPEigVAYT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9hKEWkT9zUHgPEigVAYT-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKEWkT9zUHgPEigVAYT-6" parent="9hKEWkT9zUHgPEigVAYT-1" style="whiteSpace=wrap;html=1;rounded=1;" value="获得返回数据帧" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKEWkT9zUHgPEigVAYT-8" parent="9hKEWkT9zUHgPEigVAYT-1" style="whiteSpace=wrap;html=1;rounded=1;" value="解析并存储赋值" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKEWkT9zUHgPEigVAYT-12" edge="1" parent="9hKEWkT9zUHgPEigVAYT-1" source="9hKEWkT9zUHgPEigVAYT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9hKEWkT9zUHgPEigVAYT-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKEWkT9zUHgPEigVAYT-10" parent="9hKEWkT9zUHgPEigVAYT-1" style="rounded=1;whiteSpace=wrap;html=1;" value="云端获取欧拉角" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKEWkT9zUHgPEigVAYT-11" parent="9hKEWkT9zUHgPEigVAYT-1" style="whiteSpace=wrap;html=1;rounded=1;" value="赋值一个标志位&lt;div&gt;这个标志位为1的时候&lt;/div&gt;&lt;div&gt;解析数据之后向云端发送数据帧&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
